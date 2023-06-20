@@ -638,6 +638,10 @@ body{
         grid-auto-columns: 100%;
         max-width: 350px;
     }
+
+     .slide-btn{
+        display: none;
+    }
 }
 
 /* FOOTER SECTION */
