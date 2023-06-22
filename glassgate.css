@@ -5,7 +5,9 @@
 }
 
 body{
-    font-family: cursive, sans-serif; 
+    font-family: cursive, sans-serif;
+    background-image: linear-gradient(to top, rgb(220, 220, 236),#a1cfbeb3);
+    background-repeat: no-repeat;
 }
 
 
@@ -27,6 +29,7 @@ body{
     text-align: center;
     cursor:default;
     font-family: Georgia, Arial, Helvetica;
+    margin-bottom: 5px;
 }
 
 .container h1{
