@@ -168,46 +168,69 @@ body{
 /* SECTION 2 */
 
 .sect-2 {
+    background-image: url(images/ict5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: sans-serif;
-    margin: 50px 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    opacity: 1;
+}
+
+.sect-2 .about-us-div {
+    font-size: 20px;
+    max-width: 850px;
+    padding: 30px;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.7em;
+    background-color: transparent; 
 }
 
 .sect-2 h2 {
-    margin: 15px 0;
-    font-size: 28px;
-}
-
-.sect-2 .about-us {
-    margin: 0 10px 20px;
-    padding: 0 20px;
-    font-size: 18px;
+    margin: 0 0 25px;
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: rgba(21, 59, 196, 0.5) 3px 3px 6px 1px,
+                rgba(13, 10, 194, 0.5) -3px -3px 6px 1px;
 }
 
 .sect-2 .learn-more {
-    margin: 20px 0;
+    margin: 10px;
+    padding: 10px 12px;
+    border: 2px solid #fff;
 }
 
-.sect-2 .learn-more a {
-    display: inline-block;
+.sect-2 a {
     text-decoration: none;
-    padding: 8px 16px;
-    border: 1px solid #000;
-    background-color: #000;
     color: #fff;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.sect-2 .learn-more a:hover {
-    background-color: transparent;
-    color: #000;
 }
 
 .sect-2 .learn-more a .arrow {
-    margin-left: 5px;
-    vertical-align: middle;
+    font-weight: 10px;
+}
+
+.hyphen {
+    color: #06eea8;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    /* Adjust the styles for smaller screens */
+    .sect-2 .about-us-div {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .sect-2 h2 {
+        font-size: 24px;
+        padding: 8px 16px;
+    }
 }
 
 
