@@ -362,7 +362,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #b6e0c7;
+/*     background-color: #b6e0c7; */
+    background-color: #06eea8;
 }
 
 .slider{
