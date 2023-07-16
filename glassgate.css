@@ -657,6 +657,7 @@ body{
     font-size: 18px;
     font-weight: bold;
     color: #333;
+    margin-buttom: 3px;
 }
 
 .description{
@@ -664,7 +665,7 @@ body{
     color: #707070;
     text-align: center;
     min-height: 100px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .button{
