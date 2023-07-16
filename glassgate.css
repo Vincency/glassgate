@@ -663,6 +663,7 @@ body{
     font-size: 14px;
     color: #707070;
     text-align: center;
+    min-height: 100px;
 }
 
 .button{
