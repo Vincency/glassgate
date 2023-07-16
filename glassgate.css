@@ -579,7 +579,7 @@ body{
 
 .carousel .card{
     scroll-snap-align: start;
-    height: 400px;
+    min-height: 400px;
     min-width: 320px;
     border-radius: 25px;
     background-color: #fff;
