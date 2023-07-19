@@ -342,16 +342,24 @@ body{
   }
   
   @media (max-width: 480px) {
-    .services-container {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .services-list {
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
+  .services-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
   }
+
+  .services-list {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 35px 10px;
+  }
+
+  .services-list:hover {
+    transform: scale(1.0);
+    z-index: 0;
+    color: #fff;
+  }
+}
   
 
 
