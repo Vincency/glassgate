@@ -239,7 +239,8 @@ body{
 .services {
     min-height: auto;
     font-family: sans-serif;
-    background-color: #e4e8e9;
+/*     background-color: #e4e8e9; */
+    backround-color:#8A2BE2 ;
     text-align: center;
     padding: 50px 20px;
   }
