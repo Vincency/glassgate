@@ -548,8 +548,7 @@ body{
 .partner-carousel-container {
   overflow: hidden;
   min-height: 250px;
-  width: 100%;
-  max-width: 100vw; /* Adjust the width as needed */
+  max-width: 100vw;
   margin: 0 auto;
   background-color: #080b3d;
 }
@@ -563,7 +562,7 @@ body{
 .partner-carousel {
   display: flex;
   justify-content: baseline;
-  animation: slide 20s linear infinite; /* Adjust the animation speed as needed */
+  animation: slide 20s linear infinite;
 }
 
 .partner-logo {
@@ -589,16 +588,30 @@ body{
 
 /* Media queries for responsiveness */
 @media (max-width: 767px) {
-  .logo img {
-    max-height: 100px; /* Adjust the height as needed for smaller screens */
-    max-width: 150px; /* Adjust the width as needed for smaller screens */
+  .partner-carousel-container{
+    min-height: auto;
   }
 
-  .carousel {
-    animation-duration: 30s; /* Increase the animation speed for smaller screens */
+  .partner-logo img {
+    max-height: 70px; 
+    max-width: 80px; 
+  }
+
+  .partner-logo {
+    padding: px;
+    margin: 5px;
+    border-radius: 8px;
+  }
+
+  .partner-carousel {
+    animation-duration: 10s; 
+    margin-bottom: 10px;
+  }
+
+  .partner-carousel-name{
+    font-size: 16px;
   }
 }
-
 
 
 /* Section 5 */
