@@ -659,14 +659,14 @@ body {
   }
 
   .partner-logo {
-    padding: px;
     margin: 5px;
     border-radius: 8px;
   }
 
   .partner-carousel {
-    animation-duration: 10s; 
+    animation-duration: 16s; 
     margin-bottom: 10px;
+    width: 315%;
   }
 
   .partner-carousel-name{
