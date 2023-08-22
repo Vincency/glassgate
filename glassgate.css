@@ -430,7 +430,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
 /*  background-color: #b6e0c7; */
     background-color:#e4e8e9;
 }
