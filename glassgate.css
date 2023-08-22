@@ -571,15 +571,15 @@ body {
     }
     
     #radio2:checked ~ .first{
-        margin-left: -80%;
+        margin-left: -75%;
     }
     
     #radio3:checked ~ .first{
-        margin-left: -160%;
+        margin-left: -150%;
     }
     
     #radio4:checked ~ .first{
-        margin-left: -240%;
+        margin-left: -225%;
     }
 }
 
