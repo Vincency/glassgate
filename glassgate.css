@@ -430,7 +430,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-/*     background-color: #b6e0c7; */
+    position: absolute;
+/*  background-color: #b6e0c7; */
     background-color:#e4e8e9;
 }
 
@@ -560,6 +561,29 @@ body {
     .slide{
         display: block;
     } 
+
+    .slide{
+      display: block;
+  } 
+
+ .navigation-manual{
+    right: 100px;
+    bottom: 80px;
+    background: yellow;
+    width: 200px;
+  }
+
+  .manual-btn{
+    border: 3px solid #fff;
+  }
+
+  .navigation-auto{
+    right: 100px;
+    bottom: 40px;
+    background: yellow;
+    width: 200px;
+  }
+
 
     .slide-text{
         max-width: 100vw;
