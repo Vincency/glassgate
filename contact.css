@@ -185,6 +185,7 @@
         width: 100%;
         color: white;
         background-color: #7aeca9;
+        overflow: hidden;
     }
   
     .top-nav .menu .dropdown{
