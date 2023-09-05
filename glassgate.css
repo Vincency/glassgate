@@ -78,7 +78,6 @@ body {
 
 .top-nav .menu > li {
   margin: 0 1rem;
-  overflow: hidden;
 }
 
 .top-nav .menu li a{
@@ -187,6 +186,7 @@ body {
       width: 100%;
       color: white;
       background-color: #7aeca9;
+      overflow: hidden;
   }
 
   .top-nav .menu .dropdown{
