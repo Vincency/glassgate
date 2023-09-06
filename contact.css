@@ -201,7 +201,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 div.form {
