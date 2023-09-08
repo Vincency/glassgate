@@ -137,6 +137,10 @@ body {
       right: 20px;
   }
 
+  .logo{
+    width: 100px
+  }
+
 .top-nav{
   flex-direction: column;
   height: auto;
@@ -250,8 +254,19 @@ body {
   .container {
     padding: 20px;
   }
-}
 
+  .container h1 {
+  margin: 10px 0 25px;
+  }
+
+  .container h2{
+  font-size: 40px;
+  }
+
+  .container h2 span{
+  font-size: 45px;
+  }
+}
 /* SECTION 2 */
 
 .sect-2 {
