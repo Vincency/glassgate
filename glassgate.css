@@ -254,8 +254,9 @@ body {
   }
 
   .container h1 {
-  margin: 10px 0 25px;
-  }
+  margin: 100px 0 25px;
+  font-size: 33px;
+}
 
   .container h2{
   font-size: 40px;
