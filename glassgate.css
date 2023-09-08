@@ -237,6 +237,7 @@ body {
 }
 
 .action{
+  font-family: sans-serif ;
   background: #95d8d2;
   border: 2px solid #ee06b4;
   font-size: 22px;
