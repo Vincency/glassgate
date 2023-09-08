@@ -153,8 +153,8 @@ body {
 .top-nav .menu{
       position: absolute;
       top: 0;
-      margin-top: 165px;
       left: 0;
+      margin-top: 152px;
       flex-direction: column;
       width: 100%;
       justify-content: center;
