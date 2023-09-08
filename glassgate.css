@@ -194,9 +194,6 @@ body {
     left:auto;
   }
 
-  /* .top-nav .menu > li:not(:last-child){
-      border-bottom: 1px solid #dd0d0d;
-  } */
 }
 
 .container {
@@ -225,11 +222,11 @@ body {
 
 .container h2{
   font-size: 45px;
+  font-family: 'Boldena', sans-serif;
 }
 
 .container h2 span{
   color: #ee06b4;
-  font-family: 'Boldena', sans-serif;
   font-size: 60px;
 }
 
@@ -266,7 +263,11 @@ body {
   .container h2 span{
   font-size: 45px;
   }
+
+  .actions{
+    gap: 20px;
 }
+  
 /* SECTION 2 */
 
 .sect-2 {
