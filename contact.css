@@ -47,8 +47,6 @@
   }
   
   
-  /* NEW CODE */
-  
   .top-nav{
     display: flex;
     flex-direction: row;
@@ -215,7 +213,16 @@ div.form {
 }
 
 .contact-wrapper {
-  margin: auto 0;
+  margin: 10px 0;
+}
+
+.contact-wrapper ul{
+  margin: 50px 0;
+}
+
+.contact-wrapper .follow-us p{
+  font-size: 20px;
+  color: #eb6308;
 }
 
 .submit-btn {
@@ -354,7 +361,6 @@ button:focus , .submit-btn:focus{
 .error {
   color: #ec1c24;
 }
-
 
 /* FOOTER SECTION */
 
